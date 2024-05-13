@@ -8,7 +8,7 @@ import java.util.List;
 public class SortBlocks {
     public static void main(String[] args) {
         String inputFile = "src/main.exp1files/diskdata.txt";
-        int blockSize = 10000; // 假设每个块10000行，实际中可以根据需要调整
+        int blockSize = 10000; // 每个块10000行
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
             boolean done = false;
             int fileCount = 0;

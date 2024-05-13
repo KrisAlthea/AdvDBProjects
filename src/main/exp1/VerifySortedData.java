@@ -6,7 +6,7 @@ import java.io.IOException;
 
 public class VerifySortedData {
     public static void main(String[] args) {
-        String inputFilePath = "src/main.exp1files/diskdata.txt"; // 根据实际路径调整
+        String inputFilePath = "src/main/exp1files/finalSorted02.txt"; // 根据实际路径调整
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFilePath))) {
             String previousLine = reader.readLine();
             String currentLine;

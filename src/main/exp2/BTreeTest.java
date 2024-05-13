@@ -8,9 +8,11 @@ public class BTreeTest {
         int[] keysToInsert = {10, 20, 5, 6, 12, 30, 7, 17, 3, 4, 22, 25, 28, 42, 47, 50, 55, 60, 65, 2, 1};
         for (int key : keysToInsert) {
             t.insert(key);
+            System.out.println("插入"+key+"后的B树结构:");
+            t.print();
         }
-        System.out.println("插入操作后的B树结构:");
-        t.print();
+//        System.out.println("插入操作后的B树结构:");
+//        t.print();
 
         // 删除操作
         int[] keysToDelete = {6, 13, 7, 4, 2};

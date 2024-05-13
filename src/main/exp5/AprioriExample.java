@@ -6,6 +6,9 @@ import weka.associations.AssociationRules;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 
+/**
+ * use weka
+ */
 public class AprioriExample {
     public static void main(String[] args) throws Exception {
         // 加载数据集

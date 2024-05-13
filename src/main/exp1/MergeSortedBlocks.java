@@ -4,9 +4,9 @@ import java.io.*;
 
 public class MergeSortedBlocks {
     public static void main(String[] args) {
-        String file1 = "src/main.exp1files/sortedBlock0.txt";
-        String file2 = "src/main.exp1files/sortedBlock1.txt";
-        String outputFile = "src/main.exp1files/finalSorted.txt";
+        String file1 = "src/main/exp1files/sortedBlock0.txt";
+        String file2 = "src/main/exp1files/sortedBlock1.txt";
+        String outputFile = "src/main/exp1files/finalSorted02.txt";
         try (BufferedReader reader1 = new BufferedReader(new FileReader(file1));
              BufferedReader reader2 = new BufferedReader(new FileReader(file2));
              BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
